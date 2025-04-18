@@ -1,1 +1,33 @@
-
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高流的聲音</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        a {
+            color: lightblue;
+        }
+        .music-item {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>高流的聲音</h1>
+    <div id="music-list">
+        <div class="music-item">
+            <a href="music/高流的聲音.mp3" onclick="showURL(this); return false;">播放 高流的聲音</a>
+            <audio controls>
+                <source src="music/高流的聲音.mp3" type="audio/mpeg">
+                您的瀏覽器不支持音頻標籤。
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
